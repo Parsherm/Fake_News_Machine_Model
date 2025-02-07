@@ -23,11 +23,11 @@ However, I still just recommend to download "FakeNewsML.exe" and run it as it is
 5. The input fields will clear after pressing the "Reset" button.
 
 # Files in this Project
-**fake_news_detector_ui.py:** The main Python script with the CustomTkinter GUI.
-**news.csv:** The dataset containing news articles labeled as FAKE or REAL.
-**fake_news_model.pkl:** The trained model file (generated after training).
-**tfidf_vectorizer.pkl:** The trained TF-IDF vectorizer (generated after training).
-**requirements.txt:** A file listing all the dependencies needed to run the project
+- **fake_news_detector_ui.py:** The main Python script with the CustomTkinter GUI.
+- **news.csv:** The dataset containing news articles labeled as FAKE or REAL.
+- **fake_news_model.pkl:** The trained model file (generated after training).
+- **tfidf_vectorizer.pkl:** The trained TF-IDF vectorizer (generated after training).
+- **requirements.txt:** A file listing all the dependencies needed to run the project
 
 # Acknowledgements
 The news.csv dataset used for this project is a commonly used dataset for fake news detection tasks. You can find similar datasets or use your own.
