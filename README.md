@@ -5,7 +5,7 @@ This project aims to detect whether a given news article is REAL or FAKE using a
 - Train the model: The application will train the model on a dataset (news.csv) of labeled news articles.
 - Prediction Interface: Users can input a news article title and content, and the model will predict if the article is real or fake.
 - Accuracy Display: The accuracy of the model is displayed in the bottom right corner.
-- Result Reset: After each prediction, input fields and the result label are cleared.
+- Result Reset: After each prediction, input fields and the result label are cleared after pressing "Reset."
 
 # Installing
 The easiest way to install the program with all dependencies is to just download "FakeNewsML.exe" from this repository. However there is another option should you wish.
