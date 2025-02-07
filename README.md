@@ -2,10 +2,10 @@
 This project aims to detect whether a given news article is REAL or FAKE using a machine learning model. It utilizes a Passive-Aggressive Classifier and TF-IDF Vectorizer to classify articles based on their content. The project includes a graphical user interface (GUI) built with CustomTkinter, making it easy for users to interact with the model.
 
 # Features
-Train the model: The application will train the model on a dataset (news.csv) of labeled news articles.
-Prediction Interface: Users can input a news article title and content, and the model will predict if the article is real or fake.
-Accuracy Display: The accuracy of the model is displayed in the bottom right corner.
-Result Reset: After each prediction, input fields and the result label are cleared.
+- Train the model: The application will train the model on a dataset (news.csv) of labeled news articles.
+- Prediction Interface: Users can input a news article title and content, and the model will predict if the article is real or fake.
+- Accuracy Display: The accuracy of the model is displayed in the bottom right corner.
+- Result Reset: After each prediction, input fields and the result label are cleared.
 
 # Installing
 The easiest way to install the program with all dependencies is to just download "FakeNewsML.exe" from this repository. However there is another option should you wish.
@@ -23,11 +23,11 @@ However, I still just recommend to download "FakeNewsML.exe" and run it as it is
 5. The input fields will clear after pressing the "Reset" button.
 
 # Files in this Project
-fake_news_detector_ui.py: The main Python script with the CustomTkinter GUI.
-news.csv: The dataset containing news articles labeled as FAKE or REAL.
-fake_news_model.pkl: The trained model file (generated after training).
-tfidf_vectorizer.pkl: The trained TF-IDF vectorizer (generated after training).
-requirements.txt: A file listing all the dependencies needed to run the project
+**fake_news_detector_ui.py:** The main Python script with the CustomTkinter GUI.
+**news.csv:** The dataset containing news articles labeled as FAKE or REAL.
+**fake_news_model.pkl:** The trained model file (generated after training).
+**tfidf_vectorizer.pkl:** The trained TF-IDF vectorizer (generated after training).
+**requirements.txt:** A file listing all the dependencies needed to run the project
 
 # Acknowledgements
 The news.csv dataset used for this project is a commonly used dataset for fake news detection tasks. You can find similar datasets or use your own.
